@@ -40,24 +40,23 @@ public class MainActivity extends AppCompatActivity {
 
         // isme 5 values paas hoti hain hmesha
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer_layout, R.string.open_drawer, R.string.close_drawer);
+                this, drawer_layout, toolbar, R.string.open_drawer, R.string.close_drawer);
 
         drawer_layout.addDrawerListener(toggle);
 
         toggle.syncState();
 
-        // home vala fragment ye by default open hojayga... baki sab isko replace krenge
-        loadFragment(new HomeFragment());
+
 
         navigation_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
 
-                if (id==R.id.home) {
-                    loadFragment(new HomeFragment());
+                if (id==R.id.dashboard) {
+                    Toast.makeText(MainActivity.this, "Dashboard", Toast.LENGTH_SHORT).show();
                 } else if (id==R.id.basukedar) {
-                    //loadFragment(new BasukedarFragment());
+
                     Toast.makeText(MainActivity.this, "Basukedar Temple", Toast.LENGTH_SHORT).show();
                 } else if (id==R.id.someshwar) {
                     Toast.makeText(MainActivity.this, "Someshwar Temple", Toast.LENGTH_SHORT).show();
@@ -93,13 +92,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void loadFragment(Fragment fragment) {
-        FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction ft = fm.beginTransaction();
-
-        ft.add(R.id.container, fragment);
-        ft.commit();
 
 
-    }
 }
