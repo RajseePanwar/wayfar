@@ -6,17 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -41,26 +36,39 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
         toolbar.setTitleTextColor(Color.WHITE);
-        // isme 5 values paas hoti hain hmesha
+
+        FragmentManager fm=getSupportFragmentManager();
+        FragmentTransaction ft=fm.beginTransaction();
+        ft.add(R.id.container,new dashboardfragment());
+        ft.commit();
+
+        fm.popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
+
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer_layout, toolbar, R.string.open_drawer, R.string.close_drawer);
 
         drawer_layout.addDrawerListener(toggle);
 
         toggle.syncState();
-
-
-
         navigation_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-
                 if (id==R.id.dashboard) {
                     toolbar.setTitle("Dashboard");
+
+                    FragmentManager fm=getSupportFragmentManager();
+                    FragmentTransaction ft=fm.beginTransaction();
+                    ft.add(R.id.container,new dashboardfragment());
+                    ft.commit();
+
+                    fm.popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
+
+
                     Toast.makeText(MainActivity.this, "Dashboard", Toast.LENGTH_SHORT).show();
                 } else if (id==R.id.basukedar) {
                     toolbar.setTitle("Basukedar Temple");
+
                     Toast.makeText(MainActivity.this, "Basukedar Temple", Toast.LENGTH_SHORT).show();
                 } else if (id==R.id.someshwar) {
                     toolbar.setTitle("Someshwar Temple");
@@ -77,6 +85,10 @@ public class MainActivity extends AppCompatActivity {
 
                 } else if (id==R.id.kedarnath) {
                     toolbar.setTitle("Kedarnath Temple");
+                    FragmentManager fm=getSupportFragmentManager();
+                    FragmentTransaction ft=fm.beginTransaction();
+                    ft.replace(R.id.container,new kedarnathfragment());
+                    ft.commit();
                     Toast.makeText(MainActivity.this, "Kedarnath Temple", Toast.LENGTH_SHORT).show();
                 } else if(id==R.id.flower_valley){
                     toolbar.setTitle("Valley of Flowers");
