@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="11dp"
         app:cardElevation="11dp"
-        app:cardBackgroundColor="#6BDFED"
+        app:cardBackgroundColor="#78CDD8"
         app:cardUseCompatPadding="true"
         android:layout_marginTop="50dp">
 
@@ -29,7 +29,41 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="11dp"
         app:cardElevation="11dp"
-        app:cardBackgroundColor="#6BDFED"
+        app:cardBackgroundColor="#78CDD8"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:text="Kedarnath Temple"
+                android:textColor="#0B1653"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kedarnath Temple is a Hindu temple, one of the twelve jyotirlinga of Shiva. The temple is located on the Garhwal Himalayan range near the Mandakini river, in the state of Uttarakhand, India."
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="11dp"
+        app:cardElevation="11dp"
+        app:cardBackgroundColor="#78CDD8"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
@@ -40,17 +74,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kedarnath"
-                android:textSize="35sp"
-                android:layout_marginLeft="100dp"
-                android:layout_marginRight="100dp"
-                android:textColor="#C21292"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="jhbxbas"
+                android:text="The temple is not directly accessible by road and has to be reached by a 22 kilometres (14 mi) uphill trek from Gaurikund."
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 android:layout_marginTop="10dp"/>
@@ -58,5 +82,28 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="11dp"
+        app:cardElevation="11dp"
+        app:cardBackgroundColor="#78CDD8"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delhi > 206 Km > Haridwar > 24 Km > Rishikesh > 74 Km > Devprayag > 34 Km > Srinagar > 33 Km > Rudraprayag > 44 Km > Guptkashi > 15 Km > Phata > Sonmarg > 18 Km Trek > Gaurikund."
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

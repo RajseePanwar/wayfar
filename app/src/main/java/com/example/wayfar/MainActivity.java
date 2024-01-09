@@ -64,35 +64,78 @@ public class MainActivity extends AppCompatActivity {
 
                     fm.popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-
                     Toast.makeText(MainActivity.this, "Dashboard", Toast.LENGTH_SHORT).show();
+
                 } else if (id==R.id.basukedar) {
                     toolbar.setTitle("Basukedar Temple");
 
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.container, new BasukedarFragment());
+                    ft.commit();
+
                     Toast.makeText(MainActivity.this, "Basukedar Temple", Toast.LENGTH_SHORT).show();
+
                 } else if (id==R.id.someshwar) {
                     toolbar.setTitle("Someshwar Temple");
+
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.container, new SomeshwarFragment());
+                    ft.commit();
+
                     Toast.makeText(MainActivity.this, "Someshwar Temple", Toast.LENGTH_SHORT).show();
+
                 } else if (id==R.id.mata_man) {
                     toolbar.setTitle("Mata Man Ichha Devi Temple");
+
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.container, new MataManFragment());
+                    ft.commit();
+
                     Toast.makeText(MainActivity.this, "Mata Man Ichha Devi Temple", Toast.LENGTH_SHORT).show();
+
                 } else if (id==R.id.bansi_narayan) {
                     toolbar.setTitle("Bansi Narayan Temple");
+
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.container, new BansiNarayanFragment());
+                    ft.commit();
+
                     Toast.makeText(MainActivity.this, "Bansi Narayan Temple", Toast.LENGTH_SHORT).show();
+
                 } else if (id==R.id.badrinath) {
                     toolbar.setTitle("Badrinath Temple");
+
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.container, new BadrinathFragment());
+                    ft.commit();
+
                     Toast.makeText(MainActivity.this, "Badrinath Temple", Toast.LENGTH_SHORT).show();
 
                 } else if (id==R.id.kedarnath) {
                     toolbar.setTitle("Kedarnath Temple");
+
                     FragmentManager fm=getSupportFragmentManager();
                     FragmentTransaction ft=fm.beginTransaction();
                     ft.replace(R.id.container,new kedarnathfragment());
                     ft.commit();
+
                     Toast.makeText(MainActivity.this, "Kedarnath Temple", Toast.LENGTH_SHORT).show();
+
                 } else if(id==R.id.flower_valley){
                     toolbar.setTitle("Valley of Flowers");
+
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.replace(R.id.container, new ValleyOfFlowerFragment());
+                    ft.commit();
+
                     Toast.makeText(MainActivity.this, "Flower Valley", Toast.LENGTH_SHORT).show();
+
                 }
 
                 drawer_layout.closeDrawer(GravityCompat.START);
