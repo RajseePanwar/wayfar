@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fm=getSupportFragmentManager();
         FragmentTransaction ft=fm.beginTransaction();
-        ft.add(R.id.container,new dashboardfragment());
+        ft.add(R.id.container,new dashboardfragment(),"dashboardfragment");
         ft.commit();
 
         fm.popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
@@ -56,14 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 if (id==R.id.dashboard) {
                     toolbar.setTitle("Dashboard");
-
-                    FragmentManager fm=getSupportFragmentManager();
-                    FragmentTransaction ft=fm.beginTransaction();
-                    ft.add(R.id.container,new dashboardfragment());
-                    ft.commit();
-
-                    fm.popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
-
                     Toast.makeText(MainActivity.this, "Dashboard", Toast.LENGTH_SHORT).show();
 
                 } else if (id==R.id.basukedar) {
@@ -142,19 +134,35 @@ public class MainActivity extends AppCompatActivity {
 
                 return true;
             }
+
+
         });
+
 
     }
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+
+        toolbar = findViewById(R.id.toolbar);
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
             drawer_layout.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
         }
 
+        else
+        {
+            dashboardfragment myFragment = (dashboardfragment) getSupportFragmentManager().findFragmentByTag("dashboardfragment");
+            if(myFragment != null && myFragment.isVisible())
+             super.onBackPressed();
+
+            else {
+                toolbar.setTitle("Dashboard");
+                FragmentManager fm=getSupportFragmentManager();
+                FragmentTransaction ft=fm.beginTransaction();
+                ft.replace(R.id.container,new dashboardfragment(),"dashboardfragment");
+                ft.commit();
+            }
+        }
     }
 
 
