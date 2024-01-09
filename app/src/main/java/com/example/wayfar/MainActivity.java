@@ -56,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 if (id==R.id.dashboard) {
                     toolbar.setTitle("Dashboard");
+                    FragmentManager fm=getSupportFragmentManager();
+                    FragmentTransaction ft=fm.beginTransaction();
+                    ft.replace(R.id.container,new dashboardfragment(),"dashboardfragment");
+                    ft.commit();
                     Toast.makeText(MainActivity.this, "Dashboard", Toast.LENGTH_SHORT).show();
 
                 } else if (id==R.id.basukedar) {
