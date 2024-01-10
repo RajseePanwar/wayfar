@@ -14,13 +14,13 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="11dp"
         app:cardElevation="11dp"
-        app:cardBackgroundColor="#78CDD8"
+        app:cardBackgroundColor="@color/cardsColor"
         app:cardUseCompatPadding="true"
         android:layout_marginTop="50dp">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="176dp"
+            android:layout_height="230dp"
             android:src="@drawable/kedarnathtemple"/>
     </androidx.cardview.widget.CardView>
 
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="11dp"
         app:cardElevation="11dp"
-        app:cardBackgroundColor="#78CDD8"
+        app:cardBackgroundColor="@color/cardsColor"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
@@ -38,13 +38,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="290dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="45dp"
-                android:layout_marginRight="45dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
                 android:text="Kedarnath Temple"
-                android:textColor="#0B1653"
-                android:textSize="35sp"
+                android:textColor="@color/headings"
+                android:textSize="29sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="11dp"
         app:cardElevation="11dp"
-        app:cardBackgroundColor="#78CDD8"
+        app:cardBackgroundColor="@color/cardsColor"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="11dp"
         app:cardElevation="11dp"
-        app:cardBackgroundColor="#78CDD8"
+        app:cardBackgroundColor="@color/cardsColor"
         app:cardUseCompatPadding="true">
 
         <LinearLayout

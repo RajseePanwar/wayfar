@@ -6,27 +6,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SplashActivity"
-    android:background="@drawable/mountain">
+
+    android:background="@drawable/mount5">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="WayFar"
         android:textColor="#001B79"
-        android:textSize="33sp"
+        android:textSize="27dp"
         android:textStyle="bold"
-        android:layout_marginTop="250dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginRight="150dp"/>
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="15dp"
         android:textColor="@color/black"
-        android:text="Always say yes to new adventures"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"/>
+        android:text="Always yes to new adventures"
+        android:layout_marginTop="15dp"
+/>
 
 </LinearLayout>

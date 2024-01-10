@@ -19,13 +19,13 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="11dp"
             app:cardElevation="11dp"
-            app:cardBackgroundColor="#6BDFED"
+            app:cardBackgroundColor="@color/cardsColor"
             app:cardUseCompatPadding="true"
             android:layout_marginTop="50dp">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="176dp"
+                android:layout_height="230dp"
                 android:src="@drawable/someshwar_temple1"/>
         </androidx.cardview.widget.CardView>
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="11dp"
             app:cardElevation="11dp"
-            app:cardBackgroundColor="#6BDFED"
+            app:cardBackgroundColor="@color/cardsColor"
             app:cardUseCompatPadding="true">
 
             <LinearLayout
@@ -47,9 +47,9 @@
                     android:layout_height="wrap_content"
                     android:text="Someshwar Temple"
                     android:textSize="29sp"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginRight="50dp"
-                    android:textColor="#C21292"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/headings"
                     android:textStyle="bold"/>
 
                 <TextView
