@@ -20,49 +20,148 @@
             app:cardElevation="11dp"
             app:cardBackgroundColor="@color/cardsColor"
             app:cardUseCompatPadding="true"
-            android:layout_marginTop="50dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/basukedar_temple1"/>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="11dp"
-            app:cardElevation="11dp"
-            app:cardBackgroundColor="@color/cardsColor"
-            app:cardUseCompatPadding="true">
+            android:layout_marginTop="20dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Basukedar Temple"
-                    android:textSize="29sp"
-                    android:layout_gravity="center"
-                    android:textAlignment="center"
-                    android:textColor="@color/headings"
-                    android:textStyle="bold"/>
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="40dp">
 
-                <TextView
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:src="@drawable/basukedar_temple1"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/Basukedar_Intro"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Basukedar Temple"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/Basukedar_Intro"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Historical Importance"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/Basukedar_History"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="How to Reach"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="@string/Basukedar_attraction"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
             </LinearLayout>
 
+
+
+
         </androidx.cardview.widget.CardView>
+
+
 
     </LinearLayout>
 
