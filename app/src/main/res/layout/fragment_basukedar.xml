@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="11dp"
                     app:cardElevation="11dp"
-                    app:cardBackgroundColor="@color/white"
+                    app:cardBackgroundColor="@color/smallCardsColor"
                     app:cardUseCompatPadding="true"
                     android:layout_marginTop="40dp">
 
@@ -70,11 +70,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
-                            android:text="@string/Basukedar_Intro"
+                            android:text="Basukedar Temple, a highly revered temple dedicated to Lord Shiva, is located at the peaceful village of Basukedar in Rudraprayag district of Uttarakhand. The entire region around the temple is a spiritual haven for yoga practitioners, travellers, and spiritual seekers. The temple is surrounded by beautiful Himalayan views, with the most notable being the Chaukhamba Peak (7,138 meters) to the north. &#xA; &#xA;This magnificent temple is carved in stone with captivating premises and views. There are small shrines around the main temple whose architecture and strategic placements beautifully enchances the ambience of the place. The temple complex has the main temple dedicated to Lord Shiva, and about 25 other smaller temples of various gods and goddesses."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -109,9 +111,151 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
-                            android:text="@string/Basukedar_History"
+                            android:layout_marginBottom="10dp"
+                            android:text="Basukedar Temple is a Shiva temple and its architecture seems to be at least 1000 yrs old. A natural cave adjacent to the temple complex adds to Basukedar’s allure. This cave is believed to be the sanctuary where Lord Shiva sought refuge during the Pandavas’ exile, and where sage Vyas composed the Mahabharata, infusing the temple with profound historical and spiritual significance. In earlier times, the route leading to this temple served as the original route to Kedarnath, when roads were not constructed.  &#xA; &#xA; Another belief is that the temple was constructed by the Pandavas, on their way to search for Lord Shiva, in hopes that he would release them of their sins of committing genocide. The place is believed to be the last place where Lord Shiva was seen."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardElevation="11dp"
+                    app:cardCornerRadius="11dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Photos"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+                            
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar1" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar2"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar3"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar4"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar5"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar6"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="350dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar7"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedar8"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -146,22 +290,273 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
-                            android:text="@string/Basukedar_attraction"
+                            android:layout_marginBottom="10dp"
+                            android:text="Basukedar is located in Rudraprayag district in Uttarakhand state. It is 5 km away from Chandrapuri and 31 km from Rudraprayag. &#xA; &#xA;This district is well connected with roads and is in the route to the Char Dham Yatra. Rudraprayag is also connected to all the major cities like Dehradun, Rishikesh, and Haridwar. Therefore, if you want to reach Basukedar temple then the newly constructed route through national highway 7 in Uttarakhand is the best route. &#xA; &#xA;NEAREST AIRPORT – Jolly Grant airport in Dehradun is the nearest airport to the Basukedar temple, which is 192 km away. Rishikesh is 20 km away from where you can take a taxi or government bus to the Basukedar temple. &#xA; &#xA;NEAREST RAILWAY STATION – Rishikesh railway station is the nearest railway station at a distance of 176 km from Basukedar temple. The other two alternatives are Dehradun, 215 km away, Haridwar 199 km away railway stations. &#xA; &#xA;Dehradun – Rishikesh (43 KM) &#xA; &#xA;Rishikesh – Rudraprayag (140.9 KM) &#xA; &#xA;Rudraprayag – Basukedar Village (40 KM)"
                             android:textColor="@color/black"
                             android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Delhi to Basukedar Temple Map Route"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="400dp"
+                                    android:maxWidth="280dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedarmap1"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="600dp"
+                                    android:maxWidth="400dp"
+                                    android:scaleType="fitCenter"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/basukedarmap2"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
 
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15sp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Some beautiful and historically important places near the Basukedar Temple are:"
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="SYALSAUR &#xA;Situated on the banks of the Mandakini River, a tributary of the Alokananda River, Syalsaur is a quaint hill station in Uttarakhand, a budding tourist attraction that is presently saved from overcrowding footfall. This small village is also a haven for bird lovers.It is generally considered as a stopover point for those heading to Badrinath, Kedarnath, Tunganath, etc."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 13.8 km (33 min) from Basukedar via Beron Basti Haat Road."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="CHANDRAPURI &#xA;The Chandrapuri village is situated near the Mandakini River and offers stunning views of the Himalayan range. The village is surrounded by dense forests of pine, oak, and rhododendron, which make for an excellent trekking destination. The trek to the nearby Deoria Tal is a popular activity among tourists."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 15.4 km (35 min) from Basukedar via Beron Basti Haat Road or 20.2 km (45 min) via Augustmuni Basukedar Road."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="AUGUSTMUNI &#xA;Situated on the banks of Mandakini River, Augustyamuni is a town dedicated to one of the most revered teachers in Indian mythology - Rishi Augustya. Augustyamuni is important for the Char Dham yatra as it has a helipad from where helicopter tours of the Char Dham are undertaken."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 21.8 km (46 min) from Basukedar via NH 107 or 15.9 km (40 min) via Augustmuni Basukedar Road."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="MAKKU MATH &#xA;Makku math is a small village situated in the Rudraprayag district. It is renowned as the winter seat of Tungnath, one of the Panch Kedar temples dedicated to Lord Shiva.During the harsh winter months when heavy snowfall blocks access to the higher altitudes where Tungnath is located, the deity and religious rituals are shifted to Makku math. The village thus holds spiritual importance for devotees who visit the area seeking blessings and a connection to their faith."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 27.4 km (1 hr 7 min) from Basukedar via Paldwari Makku Math Road or 39.2 km (1 hr 25 min) via Augustmuni Basukedar Road and NH 107."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="UKHIMATH &#xA;Ukhimath is the home of Lord Kedarnath and Madhyamaheshwar during winters. Worship is performed at the Omkareshwar Temple here during winters, when the temple of Kedarnath remains closed. From here, you can savour a resplendent view of the Himalayan ranges such as Kedarnath, Chaukhamba ans Neelkanth peeks. You can also visit places like Madhmaheshwar, Chopta, Tungnath, Deoria Tal Lake, Kalimath and Sari Village from here."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 26.7 km (55 min) from Basukedar via NH 107/NH 107A."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="GUPTKASHI &#xA;Guptkashi has a great importance quite like that of Kashi. The ancient Vishwanath temple, Ardhnareshwar temple and Manikarnik Kund, where the two streams of Ganga and Yamuna are believed to meet, are the main places of attraction in Guptkashi."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 27.9 km (1 hr 17 min) from Basukedar via NH 107 or 28.8 km (1 hr 13 min) via Guptkashi Basukedar Road."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Precautionary Measures"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="It's essential to be well-prepared for the challenging terrain and varying weather conditions. Be sure to pack warm clothing, waterproof gear, sturdy footwear, and a first aid kit to ensure a safe and comfortable journey. You may carry some energy bars, dry fruits and snacks to keep you energized during the journey, also carry an adequate supply of water or a water bottle that can be refilled along the way. don't eat heavy foods."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
-
-
-
         </androidx.cardview.widget.CardView>
-
-
 
     </LinearLayout>
 
