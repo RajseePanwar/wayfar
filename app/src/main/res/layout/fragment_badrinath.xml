@@ -75,7 +75,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_marginBottom="10dp"
-                            android:text="Badrinath Temple is situated in Chamoli district in the state of Uttarakhand, India. It is a Hindu holy place, and is one of the four sites in India\'s Char Dham pilgrimage. It is also part of India\'s Chota Char Dham pilgrimage circuit. The temple in Badrinath is also a sacred pilgrimage site for Vaishnavites. Badrinath is also gateway to several mountaineering expeditions headed to mountains like Nilkantha. &#xA; &#xA;According to legend, Adi Shankaracharya discovered a black stone image of Lord Badrinarayan made of Shaligram stone in the Alaknanda River. He originally enshrined it in a cave near the Tapt Kund hot springs. In the sixteenth century, the King of Garhwal moved the murti to the present temple."
+                            android:text="Badrinath Temple is situated in Chamoli district in the state of Uttarakhand, India. It is a Hindu holy place, and is one of the four sites in India\'s Char Dham pilgrimage. It is also part of India\'s Chota Char Dham pilgrimage circuit. The temple in Badrinath is also a sacred pilgrimage site for Vaishnavites. Badrinath is also gateway to several mountaineering expeditions headed to mountains like Nilkantha. &#xA; &#xA;Badrinath is a destination for pilgrims and tourists alike. The temple attracts devotees from all over India and even beyond. The sacred Alaknanda River flows near the temple, and the surrounding landscapes offer breathtaking views of the Himalayan mountains. The town comes to life during the pilgrimage season, which typically runs from late April to early November."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -111,7 +111,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Badrinath is associated with Lord Vishnu, one of the principal deities in the Hindu pantheon. It is believed to be one of the four Char Dham pilgrimage sites, with the other three being Kedarnath, Gangotri, and Yamunotri. The Char Dham Yatra is an important pilgrimage for Hindus, and visiting these sites is considered highly auspicious. &#xA; &#xA;Badrinath is a destination for pilgrims and tourists alike. The temple attracts devotees from all over India and even beyond. The sacred Alaknanda River flows near the temple, and the surrounding landscapes offer breathtaking views of the Himalayan mountains. The town comes to life during the pilgrimage season, which typically runs from late April to early November."
+                            android:text="Badrinath is associated with Lord Vishnu, one of the principal deities in the Hindu pantheon. It is believed to be one of the four Char Dham pilgrimage sites, with the other three being Kedarnath, Gangotri, and Yamunotri. The Char Dham Yatra is an important pilgrimage for Hindus, and visiting these sites is considered highly auspicious. &#xA; &#xA;.According to legend, Adi Shankaracharya discovered a black stone image of Lord Badrinarayan made of Shaligram stone in the Alaknanda River. He originally enshrined it in a cave near the Tapt Kund hot springs. In the sixteenth century, the King of Garhwal moved the murti to the present temple."
                             android:textSize="15sp"
                             android:textColor="@color/black"
                             android:layout_marginTop="10dp"
@@ -149,9 +149,7 @@
                         <HorizontalScrollView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp">
+                            android:layout_margin="10dp">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -159,43 +157,43 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="350dp"
+                                    android:layout_height="250dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:src="@drawable/badrinathphoto1" />
 
                                 <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:src="@drawable/badrinathphoto2" />
 
                                 <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:src="@drawable/badrinathphoto3" />
 
                                 <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:src="@drawable/badrinathphoto4" />
 
                                 <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:src="@drawable/badrinathphoto5" />
 
                                 <ImageView
-                                    android:layout_width="400dp"
-                                    android:layout_height="400dp"
+                                    android:layout_width="250dp"
+                                    android:layout_height="200dp"
                                     android:layout_gravity="center"
                                     android:src="@drawable/badrinathphoto6" />
 
@@ -323,7 +321,7 @@
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_marginBottom="10dp"
-                            android:text="There are many beautiful and adventurous places to visit near Badrinath. Some of them include: &#xA; &#xA;Mana Gaon: Mana is a first Indian village from the border of India and China in the Himalayas. It is located in the district of Chamoli.  It\'s just 3 kms from Badrinath town. The village is on the banks of the River Saraswati. The village is surrounded by Himalayan hills. &#xA; &#xA; Vasudhara Falls: Vasudhara Falls surging near the holy city of Badrinath is one of the most enchanting places to visit in Uttarakhand. This ravishing waterfall drops from a height of 400 feet about 122 metres above sea level. There is a trek of 5Km from Mana to reach this waterfall. &#xA; &#xA;Bheem pul:It is located near Mana village. You will find Vyas Guga while travelling through Mana and at the end of the village, a big boulder over a rivulet can be seen. This giant boulder is called the Bheem Pul. It is believed that Bheem, one of the Pandavas made this natural bridge while their journey to the swarg."
+                            android:text="There are many beautiful and adventurous places to visit near Badrinath. Some of them include: &#xA; &#xA;Mana Gaon: Mana is a first Indian village from the border of India and China in the Himalayas. It is located in the district of Chamoli.  It\'s just 3 kms from Badrinath town. The village is on the banks of the River Saraswati. The village is surrounded by Himalayan hills. &#xA; &#xA; Vasudhara Falls: Vasudhara Falls surging near the holy city of Badrinath is one of the most enchanting places to visit in Uttarakhand. This ravishing waterfall drops from a height of 400 feet about 122 metres above sea level. There is a trek of 5Km from Mana to reach this waterfall. &#xA; &#xA;Bheem pul:It is located near Mana village. You will find Vyas Gufa while travelling through Mana and at the end of the village, a big boulder over a rivulet can be seen. This giant boulder is called the Bheem Pul. It is believed that Bheem, one of the Pandavas made this natural bridge while their journey to the swarg."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
                     </LinearLayout>
