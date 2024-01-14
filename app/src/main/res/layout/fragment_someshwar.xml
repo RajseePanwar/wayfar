@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:layout_marginTop="60dp"
     android:layout_height="match_parent"
+    android:background="@drawable/bgformatted"
     tools:context=".SomeshwarFragment">
 
     <LinearLayout
@@ -14,75 +15,414 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="11dp"
-        app:cardElevation="11dp"
-        app:cardBackgroundColor="@color/cardsColor"
-        app:cardUseCompatPadding="true"
-        android:layout_marginTop="20dp">
-
-        <LinearLayout
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/smallCardsColor"
+            android:layout_marginTop="10dp"
+            app:cardUseCompatPadding="true">
 
-            <androidx.cardview.widget.CardView
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/smallCardsColor"
+                            android:text="swipe right"
+                            android:layout_gravity="center" />
+
+                        <ImageView
+                            android:layout_width="300dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/someshwar2"/>
+
+
+                        <ImageView
+                            android:layout_width="300dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/someshwar3" />
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/someshwar4" />
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/someshwar5" />
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/someshwar6" />
+
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/someshwar7"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Someshwar Temple"
+            android:textAlignment="center"
+            android:textColor="@color/headings"
+            android:layout_marginTop="20dp"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="11dp"
-                app:cardElevation="11dp"
-                app:cardBackgroundColor="@color/smallCardsColor"
-                app:cardUseCompatPadding="true"
-                android:layout_marginTop="40dp">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="230dp"
-                    android:src="@drawable/someshwar_temple1"/>
-            </androidx.cardview.widget.CardView>
+                    android:layout_height="210dp"
+                    android:src="@drawable/someshwar_temple1"
+                    android:layout_marginTop="10dp"/>
 
-            <androidx.cardview.widget.CardView
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="-> Located in the beautiful Someshwar Valley in Almora district of Uttarakhand. &#xA;-> The valley lies on the bank of Kosi and Sai River and consists of quaint hamlets surrounded by natural beauty. &#xA;-> On Shivratri, a grand fair is held at the temple where devotees of Lord Shiva gather in huge crowds to worship and seek his blessings."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/smallCardsColor"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="11dp"
-                app:cardElevation="11dp"
-                app:cardBackgroundColor="@color/smallCardsColor"
-                app:cardUseCompatPadding="true">
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Historical Importance"
+                    android:textColor="@color/headings"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-> Someshwar temple was built by Raja Som Chand, founder of the Chand dynasty. &#xA;-> This temple is constructed with Deodar wood and is a perfect example of wooden art. &#xA;-> The architecture of this temple is in the Pahadi style. &#xA;-> This temple also has an extensive collection of bells. &#xA;-> This temple is open from 5:00 a.m. to 8:00 p.m."
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/smallCardsColor"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How To Reach"
+                    android:textSize="25sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/headings"
+                    android:textStyle="bold"/>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Someshwar Temple"
-                        android:textSize="25sp"
                         android:layout_gravity="center"
-                        android:textAlignment="center"
-                        android:textColor="@color/headings"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="@string/Someshwar_Intro"
+                        android:text="By Road: Someshwar is located at a distance of about 11 km from Kausani, which is well connected to cities like Pantnagar. &#xA;&#xA;By Rail: Nearest railway station of kausani is Kathgodam, which is about 134 km from Kausani.&#xA;&#xA;By Air: Nearest airport of Kausani is Pantnagar, qgich is about 168 km from Kausani."
                         android:textColor="@color/black"
                         android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:text="New Delhi to Someshwar Map"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imgdelhibadrimap"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/someshwarmap" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Best time to visit"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="The best time to visit shri someshwar mahadev temple is March, April, May, June, September, October, November. Monsoon is considered to be the unsafe for travelling in mountains because of heavy rainfall and heavy landslides occur in monsoons."
+                        android:textColor="@color/black"
+                        android:textSize="15sp"/>
+
                 </LinearLayout>
+            </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearby Attractions"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/headings"
+            android:textStyle="bold"/>
 
-    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/smallCardsColor"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Rudradhari Falls and Caves (19 km)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rudradharifalls"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Baijnath Temple (28.2 km)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/baijnath"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Anasakti Ashram (12.7 km)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/anasakti_ashram"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Pinnath Temple and Trek (19 km)"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/pinnath"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/smallCardsColor"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precautionary Measures"
+                    android:textSize="25sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/headings"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="1. Mobiles and cameras are not allowed inside the temple. &#xA;2. Remove  your footwear outside the temple. &#xA;3. Drinking and smoking are not allowed inside the temple. &#xA;4. Do not make noise inside the temple. &#xA;5. Make sure you do not throw the garbage on the floor of temple. &#xA;6. Make sure your Prasad don’t lie on the floor of the temple."
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
