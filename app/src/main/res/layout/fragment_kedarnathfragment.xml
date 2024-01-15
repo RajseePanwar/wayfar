@@ -47,14 +47,14 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
                             <ImageView
-                                android:layout_width="250dp"
-                                android:layout_height="200dp"
+                                android:layout_width="350dp"
+                                android:layout_height="250dp"
                                 android:layout_marginTop="10dp"
                                 android:src="@drawable/kedarnathtemple"/>
 
                             <ImageView
-                                android:layout_width="250dp"
-                                android:layout_height="200dp"
+                                android:layout_width="350dp"
+                                android:layout_height="250dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="10dp"
                                 android:src="@drawable/kedarnath1"/>
@@ -304,7 +304,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="10dp"
@@ -328,7 +328,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="10dp"
@@ -352,7 +352,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="10dp"
@@ -377,10 +377,9 @@
                                     android:layout_marginLeft="10dp">
 
                                     <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
+                                        android:layout_width="350dp"
+                                        android:layout_height="250dp"
                                         android:layout_gravity="center"
-                                        android:layout_marginTop="25dp"
                                         android:src="@drawable/kedarnath5" />
 
                                     <TextView

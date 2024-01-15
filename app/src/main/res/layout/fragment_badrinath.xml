@@ -48,14 +48,14 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:layout_width="300dp"
-                                android:layout_height="230dp"
+                                android:layout_width="350dp"
+                                android:layout_height="250dp"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/badrinath"/>
+                                android:src="@drawable/badrinathtemple"/>
 
                             <ImageView
-                                android:layout_width="300dp"
-                                android:layout_height="230dp"
+                                android:layout_width="350dp"
+                                android:layout_height="250dp"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/badrinathphoto1"/>
 
@@ -307,7 +307,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="10dp"
@@ -330,7 +330,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="10dp"
@@ -353,7 +353,7 @@
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical">
                                     <ImageView
-                                        android:layout_width="300dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="10dp"
@@ -376,7 +376,7 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="250dp"
+                                        android:layout_width="350dp"
                                         android:layout_height="250dp"
                                         android:layout_gravity="center"
                                         android:src="@drawable/badrinathphoto5" />
