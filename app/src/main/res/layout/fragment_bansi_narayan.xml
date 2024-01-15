@@ -2,12 +2,13 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_marginTop="60dp"
     android:layout_height="match_parent"
-    tools:context=".SomeshwarFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboardfragment"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,9 +38,29 @@
                     app:cardUseCompatPadding="true"
                     android:layout_marginTop="40dp">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"/>
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="230dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/bansinarayantemple"/>
+
+                            <ImageView
+                                android:layout_width="250dp"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/bansinarayantemple1"/>
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
 
                 </androidx.cardview.widget.CardView>
 
@@ -54,14 +75,356 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Bansi Narayan Temple"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Located in Urgam Valley in the Chamoli district of Uttarakhand, Bansi Narayan Temple is an 8th Century Temple of single structure dedicated to Lord Krishna. The temple lies 10 km ahead of Bansa, the last village in Urgam Village.The ten-foot-high temple houses a quadrangular statue of Lord Vishnu.It is surrounded by the Himalayan range of Nanda Devi and enclosed within dense forests of oak and rhododendrons. It is a popular place for adventure, camping, trecking and temples.&#xA;&#xA;The doors of Bansi Narayan Temple only opens once a year, on the day of Raksha Bandhan. The sisters visit the temple and worship the Lord before tying rakhi to their brothers. It is believed that the Bansi Narayan Temple was constructed during the exile of Pandavas."
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Historical Importance"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The local people of urgram valley believe that Lord Krishna plays Ras Leela with his friends here. It is also believed that that people with ardent devotion and faaith in Lord Krishna can hear the sound of flute or bansi.&#xA;&#xA;The Bansi Narayan temple was believed to be the place where Lord Narayana emerged from the underworld after defeating the deamon king Bali in his Vamana avatar.Bali requested for the protection of the Lord and so Lord Vishnu accompanied king Bali to the underworld, assuming the role.Shri Narada Muni suggested Mata Lakshmi to travel to the underworld on a full moon of the Shravan month and tie a Raksha sutra on king Bali’s wrist."
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Bansi Narayan Temple"
+                            android:text="How To Reach"
                             android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:text="To reach Bansi Narayan Temple, you have to travel to Rishikesh. Rishikesh is well connected through trains and roads. The nearest airport is the Jolly Grant airport in dehradun which is 21Km away from Rishikesh. &#xA;Further we have to travel through NH7 to reach Bansi Narayan Temple. You may find direct buses and taxis from Rishikesh to Devgram. You have to travel 247Km by road to reach Bansi Narayan Temple. &#xA; &#xA;Some major towns on the way include Devprayag, Srinagar, Rudraprayag, Karnaprayag, Gopeshwar, Joshimath, Helang, Devgram. You may find many restaurants and hotels to stay in these places.&#xA;&#xA;The trek to Bansi Narayan temple begins at Devgram which is 12 to 15 km long. The Bansi Narayan temple is situated approx. 12 km from Kalpeshwar Mahadev temple, the last of Panch Kedar."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+                                android:text="New Delhi to Bansi Narayan Temple map"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/imgdelhibadrimap"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/newdelhi_bansinarayan_map" />
+
+                                    <ImageView
+                                        android:id="@+id/imgrishikeshbadrimap"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="20dp"
+                                        android:src="@drawable/rishikesh_bansinarayan_map" />
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nearby Places"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="There are many beautiful and adventurous places to visit near Bansi Narayan Temple. Some of them include: &#xA; &#xA;Urgam Valley: Urgam Valley is known for its scenic beauty and tranquil surroundings. It offers picturesque views of the surrounding mountains, terraced fields, and apple orchards. Visitors can take leisurely walks, enjoy the serene ambiance, and interact with the local villagers to experience their culture and way of life.&#xA; &#xA;Kalpeshwar Mahadev Temple: Kalpeshwar Mahadev Temple is a Hindu Temple dedicated to Lord Shiva is situated in Urgam Valley, Chamoli District Garhwal Region of Uttarakhand State. Kalpeshwar is the Last Temple as Shiva’s divine forms in order of 5 Kedar Temple. Kalpeshwar temple is the only Panch Kedar temple accessible throughout the year. Around 300m trek from the road head this small stone temple approached through a cave passage, Lord Shiva is worshipped here in the form of matted tress (jata).&#xA; &#xA;Nandi Kund: Nandi Kund is a high-altitude lake located in the Indian state of Uttarakhand. The lake is situated at an altitude of 4,300 meters above sea level and is surrounded by snow-capped peaks and glaciers. The trek to Nandi Kund is a challenging and scenic trek that takes you through remote villages, high-altitude meadows, and breath-taking landscapes. The trek starts from the village of Ransi in the Chamoli district of Uttarakhand via Madhyamaheshwar and takes you through the Pandav Sera trail before branching off towards Nandi Kund.&#xA; &#xA;Gopinath Temple: Gopinath Temple dedicated to Lord Shiva is situated in Gopeshwar Town, Chamoli Garhwal district of Uttarakhand State. The temple was built by Katuri Kings of ancient Uttarakhand between 9th to 11th centuries. Architecture of Gopinath temple is same as other famous Panch Kedars of Uttarakhand.  There is a trident (Trishul), in the courtyard of the temple, about 5 m high, made of eight different metals, which dates back to the 12th century. Gopinath Temple lies exactly mid between Badrinath Dham and Kedarnath dham with distance of 151km from both Temples. "
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Photos"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/bansinarayantemple2" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Urgam Valley"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="350dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/bansinarayantemple3" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Kalpeshwar Mahadev Temple"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"
+                                        android:textStyle="bold"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/bansinarayantemple4" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Nandi Kund"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"
+                                        android:textStyle="bold"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/bansinarayantemple5" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Gopinath Temple"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"
+                                        android:textStyle="bold"/>
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Precautionary Measures"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
                             android:layout_gravity="center"
                             android:textAlignment="center"
                             android:textColor="@color/headings"
@@ -73,9 +436,12 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Here are some precautions that one should take while visiting Bansi Narayan Temple. &#xA; It is advisable to wear warm and comfortable clothes that can be layered easily. Additionally, you should carry a raincoat or umbrella in case of sudden rainfall.It is important to acclimatize properly before beginning the trek to the Bansi Narayan temple.It is important to drink plenty of water and other fluids to stay hydrated while trekking to temple. This will help prevent altitude sickness and other health problems."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
                     </LinearLayout>
+
 
                 </androidx.cardview.widget.CardView>
 
@@ -84,5 +450,6 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
 
 </ScrollView>
