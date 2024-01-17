@@ -2,12 +2,13 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_marginTop="60dp"
     android:layout_height="match_parent"
-    tools:context=".SomeshwarFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboardfragment"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,9 +38,56 @@
                     app:cardUseCompatPadding="true"
                     android:layout_marginTop="40dp">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"/>
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/mannichha1"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/mannichha2" />
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/mannichha3"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/mannichha4"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/mannichha5"/>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -53,14 +101,347 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Mata Mann Ichchha Devi Temple"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Around 33 Km from Dehradun, lies an ancient meditation site, which is now known as Mata Man Ichchha Devi Temple. The temple has a rich history and is a must-visit if you are in or around Dehradun. It is believed that if a devotee arrives at the Man Icchha Devi Mandir for 40 days and engages in Devi’s Pooja with pure devotion, all his wishes are fulfilled by Maa Bhagwati. Visiting this place during Navratri has a special significance and it is believed that all your life’s ailments and problems go away if you visit this temple during Navratri.  &#xA; &#xA;Upon reaching the Man Ichchaa temple entrance, you must climb 122-125 stairs (100-125 meters) to reach the main temple. Along the way, you will encounter a centuries-old banyan tree spread all along the temple periphery, which creates a roof of sorts."
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Historical Importance"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Man Iccha means ‘desires of the heart’, and it is believed those desires are fulfilled by praying at this site. The saints at the temple are referred to as only ‘Maharaj Ji.’ The story goes back 500 years where one such saint was praying to Maa Bhagwati. &#xA; &#xA;On the 40th day of this process, ‘Maharaj Ji’ was blessed with Maa Bhagwati’s presence in the form of an idol and urged the devotee to bathe the idol. During that time, there was no source of water in that region, since it is not on a high altitude and there is no river or a source of water nearby, chances of natural water are slim. &#xA; &#xA;‘Maharaj Ji’ raised this concern to the Devi. Mata Bhagwati ordered him to establish her idol as a temple in that place. Once the temple was established, natural water started flowing as the Devi blessed the place. Maharaj Ji then used that water to bathe the idol of Maa Bhagwati. This tradition has been kept alive for over 500 years."
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Mata Man Ichha Devi Temple"
+                            android:text="How To Reach"
                             android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:text="Mata Man Ichchha Devi Temple lies between Rishikesh and Dehradun. It is 10 km before reaching Rishikesh on the Dehradun Rishikesh route, take a left turn from the board sign saying Mansa Devi Temple 1 km away(it is another name forthis temple). The temple is at a distance of 1 km away from National Highway 7, till here you may use any form of vehicle and further distance can be easily covered by walking. &#xA; &#xA;Jollygrant Airport, Dehradun is only 7 km away. Nearest railway stations are Haridwar(20 km) and Rishikesh(8 km). "
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+                                android:text="New Delhi to Mata Mann Ichchha Devi Temple map"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/mannichhamap1" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/mannichchhamap2" />
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nearby Attractions"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="There are many beautiful and adventurous places to visit near Mata Mann Ichchha Devi Temple. Some of them include: &#xA; &#xA;TRIVENI GHAT &#xA;Triveni Ghat is a place of religious significance as well as a site of historical importance. It is believed that Lord Krishna visited this place when he was wounded by an arrow shot by Jara(a hunter). The 'Soma Kund', located on the banks of the ghat, is said to be the exact spot where Lord Krishna rested.&#xA;It is located at a distance of 12.1 km from the Temple.&#xA;&#xA;RAM JHULA&#xA;An iconic landmark, Ram Jhula, is a suspension bridge that runs across the sacred River Ganga connecting Shivananda Nagar to Swargashram. The bridge spans 750 feet and offers a splendid bird's eye view of the mighty Ganges and the serene nature at the foothills of the Himalayas.&#xA;It is located at a distance of 14.8 km from the Temple.&#xA;&#xA;THE BEATKES ASHRAM&#xA;&#xA;Beatles Ashram, also known as Chaurasi Kutia, is an ashram close to Rishikesh. In 1997, however, it got deserted, until recently on 8 December 2015, Uttarakhand's Forest Department reopened this Beatles ashram and turned it into a tourist place. One of the main reasons why this ashram is famous is because of its Graffiti artwork.&#xA;It is located at a distance of 14.1 km from the Temple.&#xA;&#xA;NEER WATERFALLS&#xA;Neer waterfall is a famous waterfall for the small treks. The water flowing from natural rocky cliffs entice the holiday-makers to take a duck in the small stream. Trekking to the waterfall is a venturesome activity as it involves walking through the woods on narrow trails. &#xA;It is located at a distance of 20 km from the Temple.&#xA;&#xA;"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Photos"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/trivenighat" />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Triveni Ghat"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/ramjhula" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ram Jhula"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/beatles" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="The Beatles Ashram"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="10dp">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/neerwaterfall" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Neer Waterfall"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="20dp"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Precautionary Measures"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
                             android:layout_gravity="center"
                             android:textAlignment="center"
                             android:textColor="@color/headings"
@@ -72,9 +453,12 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Here are some precautions that one should take while visiting Mata Mann Ichchha Devi Temple. &#xA;Remove  your footwear outside the temple. Drinking and smoking are not allowed inside the temple and do not make noise inside the temple. There are lots of monkeys around the temple, do not feed them and also, you will have to park your vehicle on a secluded road. The place is really secluded and you will not find any shops or hotels nearby."
                             android:textColor="@color/black"
                             android:textSize="15sp" />
                     </LinearLayout>
+
 
                 </androidx.cardview.widget.CardView>
 
@@ -83,5 +467,6 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
 
 </ScrollView>

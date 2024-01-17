@@ -10,6 +10,7 @@
     <ImageView
         android:layout_width="138dp"
         android:layout_height="122dp"
+
         android:contentDescription="Header Image"
         android:src="@drawable/mountain" />
 
