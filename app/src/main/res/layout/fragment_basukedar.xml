@@ -67,16 +67,13 @@
                                 android:src="@drawable/basukedar3"/>
 
                             <ImageView
-                                android:layout_width="300dp"
+                                android:layout_width="200dp"
                                 android:layout_height="250dp"
                                 android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
                                 android:src="@drawable/basukedar4"/>
 
-                            <ImageView
-                                android:layout_width="300dp"
-                                android:layout_height="250dp"
-                                android:layout_marginTop="10dp"
-                                android:src="@drawable/basukedar7"/>
+
 
                         </LinearLayout>
                     </HorizontalScrollView>

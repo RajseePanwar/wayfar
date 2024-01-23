@@ -60,6 +60,18 @@
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="10dp"
                                 android:src="@drawable/bansinarayantemple1"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:src="@drawable/bansipic1"/>
+
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/bansipic2"/>
                         </LinearLayout>
 
                     </HorizontalScrollView>

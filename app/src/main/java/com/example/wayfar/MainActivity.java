@@ -8,13 +8,25 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.widget.CompositePageTransformer;
+import androidx.viewpager2.widget.MarginPageTransformer;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.constants.ScaleTypes;
+import com.denzcoskun.imageslider.models.SlideModel;
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         drawer_layout = findViewById(R.id.drawer_layout);
         navigation_view = findViewById(R.id.navigationView);
         toolbar = findViewById(R.id.toolbar);
+
+
 
         setSupportActionBar(toolbar);
         toolbar.setTitleTextColor(Color.WHITE);
@@ -61,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     ft.replace(R.id.container,new dashboardfragment(),"dashboardfragment");
                     ft.commit();
                     Toast.makeText(MainActivity.this, "Dashboard", Toast.LENGTH_SHORT).show();
+
 
                 } else if (id==R.id.basukedar) {
                     toolbar.setTitle("Basukedar Temple");
@@ -110,6 +126,8 @@ public class MainActivity extends AppCompatActivity {
                     ft.replace(R.id.container, new BadrinathFragment());
                     ft.commit();
 
+
+
                     Toast.makeText(MainActivity.this, "Badrinath Temple", Toast.LENGTH_SHORT).show();
 
                 } else if (id==R.id.kedarnath) {
@@ -144,6 +162,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
     @Override
     public void onBackPressed() {

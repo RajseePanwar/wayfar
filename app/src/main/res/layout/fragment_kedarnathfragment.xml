@@ -47,13 +47,23 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
                             <ImageView
-                                android:layout_width="350dp"
+                                android:layout_width="300dp"
                                 android:layout_height="250dp"
                                 android:layout_marginTop="10dp"
                                 android:src="@drawable/kedarnathtemple"/>
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/kedarnathpic1"/>
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/kedarnathpic2"/>
 
                             <ImageView
-                                android:layout_width="350dp"
+                                android:layout_width="250dp"
                                 android:layout_height="250dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="10dp"
