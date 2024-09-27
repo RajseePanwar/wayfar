@@ -3,5 +3,8 @@
     <string name="open_drawer">Open navigation drawer</string>
     <string name="close_drawer">Close navigation drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Dashboard_Intro">Uttarakhand is a state in the northern part of India. It is often referred to as the Devbhumi, the Land of the Gods due to its religious significance and numerous Hindu temples and pilgrimage sites found throught the state. Uttarakhand is famous for Chota Char Dham, which literally meaning journey to four centres. These four religious centers in Uttarakhand are represented by Badrinath(dedicated to Lord Vishnu), Kedarnath(dedicated to Lord Shiva), Gangotri(the holy origin of river Ganga) and Yamunotri(the holy origin of river Yamuna). Badrinath is part of the bigger Char Dham. While these are the most famous ones there are many more beautiful places and temples to visit in Uttarakhand. Some of these include Bansi Narayan Temple, Someshwar Temple, Basukedar Temple, Valley of Flowers and many more.</string>
+    <string name="Dashboard_AboutUs">This app intends to publicize such hidden temples and famous places to visit in Uttarakhand which most of the people are unaware of. We provide all the information about such places and also the places to visit near them. You can also use the google maps to travel to those places from the app itself. We also provide all the travelling options to reach the destination. You can find all the info by clicking on the  toogle button on the top left corner followed by selecting the destination.</string>
+
 </resources>
+

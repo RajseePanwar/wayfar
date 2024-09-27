@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboardfragment"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/cardsColor"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="40dp">
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/someshwar_temple1"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/someshwar3" />
+
+                            <ImageView
+                                android:layout_width="250dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/someshwar5"/>
+
+                            <ImageView
+                                android:layout_width="220dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/someshwar7"/>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Someshwar Temple"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Someshwar Temple, dedicated to Lord Shiva, is located in the beautiful Someshwar Valley in Almora district of Uttarakhand. This temple is one of the religious and spiritual place in Uttarakhand. It attracts not only devotees but also tourists who wish to experience nature’s beauty and colourful culture of Uttarakhand. The valley lies on the bank of Kosi and Sai River and consists of quaint hamlets surrounded by natural beauty all around. &#xA; &#xA;On Shivratri, a grand fair is held at the temple where devotees of Lord Shiva gather in huge crowds to worship and seek his blessings. Visiting Someshwar Temple during this time offers a joyful experience. On the occasion of Shivratri you can see a huge crowd enjoying the fair. Many shops were established to attract the crowd. This fair  attract the tourist in large number."
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:layout_marginTop="10dp"
+                            android:text="Historical Importance"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Someshwar temple was built by Raja Som Chand, founder of the Chand dynasty. Interestingly, the name of the temple comprises of the combination of the names - Raja Ram Chand and Maheshwar. This temple is constructed with Deodar wood and is a perfect example of wooden art. This temple represents the history, culture, and tradition of the Hindus. The architecture of this temple is in the Pahadi style. This temple also has an extensive collection of bells.&#xA; &#xA;This temple is believed to be a sacred Dham of Shiva devotees. People visit this temple and pray for their health, wealth, and prosperity. This temple is open from 5:00 a.m. to 8:00 p.m."
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="How To Reach"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:text="Someshwar Temple is located just 12 km from the picturesque hill station of Kausani and is ahead of the Someshwar Mall area. Your cue to the temple will be a small entry board placed along the old shops. It just takes 4-5 minutes to reach Someshwar Mahadev Temple from the mall area.&#xA; &#xA;To reach Kausani, the nearest air link is provided by Pantnagar Airport, which is about 177 km from Kausani. Kathgodam is the nearest Railway Station for Kausani which about 142 km away. By road, Kausani is well connected with major cities like Delhi (419 km), Nainital (115 km) and Almora (52 km)."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+                                android:text="New Delhi to Someshwar map"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <HorizontalScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/someshwarmap" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/someshwarmap2" />
+
+                                </LinearLayout>
+                            </HorizontalScrollView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nearby Attractions"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="There are many beautiful and adventurous places to visit near Someshwar Temple. Some of them include: &#xA; &#xA;RUDRADHARI FALLS AND CAVES &#xA;A Rudradhari waterfall is a natural location with lush green paddy fields. This waterfall can be easily watched while trekking to Adi Kailash region or Trishuli parvat. There are many ancient caves near the water fall. &#xA;It is located at a distance of 19 km from Someshwar&#xA; &#xA;BAIJNATH &#xA;Baijnath is a small town on the banks of the Gomati river in  Bageshwar. The place is most noted for its ancient temples, which have been recognized as Monuments of National Importance by the Archaeological Survey of India .There is a famous Baijnath Mandir (Lord Shiva) which is said to have been built by the Kumaon Katyuri king in around 1150 A.D. &#xA;It is located at a distance of 28.2 km from Someshwar&#xA; &#xA;ANASAKTI ASHRAM &#xA;Anasakti Ashram is a peaceful place in Kausani, famous for the stay of Mahatma Gandhi for two weeks in 1929. Gandhiji called this place as the Switzerland of India, after falling in love with its pristine beauty. &#xA;It is located at a distance of 12.7 km from Someshwar&#xA; &#xA;PINNATH TEMPLE AND TREK &#xA;If you are trekking junkie, a worshipper or a nature addict then Pinnath is one such place that you must visit. Here you can visit the conical structured, Pinnath Temple or rejuvenate your senses amidst the natural beauty. During October, you can witness the grand fair held in the Pinnath Village.&#xA;It is located at a distance of 28.2 km from Someshwar"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Photos"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="280dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/rudradharifalls" />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rudradhari Falls"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="280dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/baijnath" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Baijnath"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="280dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/anasakti_ashram" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Anasakti Ashram"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="10dp">
+
+                                    <ImageView
+                                        android:layout_width="280dp"
+                                        android:layout_height="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/pinnath" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Pinnath"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:layout_marginTop="20dp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Precautionary Measures"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Here are some precautions that one should take while visiting Someshwar Temple. &#xA;It is important to remember that mobiles and cameras are not allowed inside the temple. Remove  your footwear outside the temple. Drinking and smoking are not allowed inside the temple and do not make noise inside the temple. Make sure your Prasad don’t lie on the floor of the temple and do not throw the garbage on the floor of temple."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

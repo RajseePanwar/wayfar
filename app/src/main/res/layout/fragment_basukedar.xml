@@ -1,19 +1,549 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
-    android:background="#91352E"
+    android:layout_marginTop="60dp"
     tools:context=".BasukedarFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Basukedar Temple page"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:textSize="50dp"/>
+        android:orientation="vertical">
 
-</LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardBackgroundColor="@color/cardsColor"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginTop="40dp">
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/basukedar_temple1"/>
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/basukedar2" />
+
+                            <ImageView
+                                android:layout_width="300dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:src="@drawable/basukedar3"/>
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/basukedar4"/>
+
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Basukedar Temple"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Basukedar Temple, a highly revered temple dedicated to Lord Shiva, is located at the peaceful village of Basukedar in Rudraprayag district of Uttarakhand. The entire region around the temple is a spiritual haven for yoga practitioners, travellers, and spiritual seekers. The temple is surrounded by beautiful Himalayan views, with the most notable being the Chaukhamba Peak (7,138 meters) to the north. &#xA; &#xA;This magnificent temple is carved in stone with captivating premises and views. There are small shrines around the main temple whose architecture and strategic placements beautifully enchances the ambience of the place. The temple complex has the main temple dedicated to Lord Shiva, and about 25 other smaller temples of various gods and goddesses."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Historical Importance"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Basukedar Temple is a Shiva temple and its architecture seems to be at least 1000 yrs old. A natural cave adjacent to the temple complex adds to Basukedar’s allure. This cave is believed to be the sanctuary where Lord Shiva sought refuge during the Pandavas’ exile, and where sage Vyas composed the Mahabharata, infusing the temple with profound historical and spiritual significance. In earlier times, the route leading to this temple served as the original route to Kedarnath, when roads were not constructed.  &#xA; &#xA; Another belief is that the temple was constructed by the Pandavas, on their way to search for Lord Shiva, in hopes that he would release them of their sins of committing genocide. The place is believed to be the last place where Lord Shiva was seen."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="How to Reach"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="To reach Basukedar Temple, you have to travel to Rishikesh. Rishikesh is well connected through trains and roads. The nearest airport is the Jolly Grant airport in Dehradun which is 21Km away from Rishikesh. &#xA;Further you have to travel through NH-7 to reach Rudraprayag district from where Basukedar is only 40 km away. You may find direct buses and taxis from Rishikesh to Basukedar and Rudraprayag. You have to travel 175 Km by road to reach Basukedar. Once you have reached the village, you will find the temple after a small trek. &#xA; &#xA;Some major towns on the way include Devprayag, Srinagar, Rudraprayag, Tilwara, Augustmuni. &#xA;You may find many restaurants and hotels to stay in these places."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="New Delhi to Basukedar Map"
+                            android:textSize="20sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:src="@drawable/basukedarmap1"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:src="@drawable/basukedarmap2"/>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nearby Places"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="There are many beautiful and adventurous places to visit near Basukedar Temple. Some of them include: &#xA; &#xA;SYALSAUR &#xA;Situated on the banks of the Mandakini River, Syalsaur is a quaint hill station and a budding tourist attraction, presently saved from overcrowding footfall. It is also a haven for bird lovers."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 13.8 km from Basukedar via Beron Basti Haat Road."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="MAKKU MATH &#xA;Makku math is a small village in Rudraprayag, renowned as the winter seat of Tungnath, one of the Panch Kedar temples dedicated to Lord Shiva. The village thus holds spiritual importance for devotees who visit the area seeking blessings."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 27.4 km from Basukedar via Paldwari Makku Math Road or 39.2 km via Augustmuni Basukedar Road and NH 107."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="UKHIMATH &#xA;Ukhimath is the home of Lord Kedarnath and Madhyamaheshwar during winters. Worship is performed at the Omkareshwar Temple here during winters. From here, you can visit Madhmaheshwar, Chopta, Tungnath, Deoria Tal Lake, Kalimath and Sari Village."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 26.7 km from Basukedar via NH 107/NH 107A."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="GUPTKASHI &#xA;Guptkashi has a great importance quite like that of Kashi. The ancient Vishwanath temple, Ardhnareshwar temple and Manikarnik Kund, where the two streams of Ganga and Yamuna are believed to meet, are the main places of attraction here."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="15sp"
+                            android:text="It is about 27.9 km from Basukedar via NH 107 or 28.8 km via Guptkashi Basukedar Road."
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Photos"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textSize="25sp"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"/>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/syalsaur" />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Syalsaur"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/makkumath" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Makku Math"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="250dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/ukhimath" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Ukhimath"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="10dp">
+
+                                    <ImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="25dp"
+                                        android:src="@drawable/guptkashi" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Guptkashi"
+                                        android:textColor="@color/black"
+                                        android:textSize="25sp"
+                                        android:layout_marginTop="20dp"
+                                        android:textStyle="bold"
+                                        android:textAlignment="center"
+                                        android:layout_gravity="center"/>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="11dp"
+                    app:cardElevation="11dp"
+                    app:cardBackgroundColor="@color/smallCardsColor"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Precautionary Measures"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="@color/headings"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="It's essential to be well-prepared for the challenging terrain and varying weather conditions. Be sure to pack warm clothing, waterproof gear, sturdy footwear, and a first aid kit to ensure a safe and comfortable journey. You may carry some energy bars, dry fruits and snacks to keep you energized during the journey, also carry an adequate supply of water or a water bottle that can be refilled along the way. don't eat heavy foods."
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

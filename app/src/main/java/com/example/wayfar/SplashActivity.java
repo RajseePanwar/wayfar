@@ -21,6 +21,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(iHome);
                 finish();
             }
-        }, 4000);
+        }, 3000);
     }
 }
